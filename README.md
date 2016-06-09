@@ -27,7 +27,7 @@ necesitan ser evaluadas con ctrl + enter - desde 'let poetry = Shape {' - hasta 
 
 - Ahora evaluamos por separado cada línea de código de nuestro archivo.
 
-Y por último evaluamos con ctrl + enter nuestro patrón de formas visuales - 
+- Y por último evaluamos con ctrl + enter nuestro patrón de formas visuales: 
 
 p1 $ word "h o l a m u n d o" # x "0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9" # life "12" # r "0" # g (slow 2 $ scale 0 255 sine) # b "155"
 
