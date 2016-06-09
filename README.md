@@ -1,2 +1,2 @@
 # s2hs2-TidalCycles-0.8-
-s2hs2, an interface between TidalCycles and Processing. A visual form can be assigned to each letter on the computer keyboard, visualising patterns of words sent from Tidal.
+'s2hs2', una interfaz para comunicacion OSC entre TidalCycles y Processing. A traves de ella una forma visual puede ser asignada a cada letra del teclado en la computadora visualizando patrones de palabras enviados desde Tidal.
