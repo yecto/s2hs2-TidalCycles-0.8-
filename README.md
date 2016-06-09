@@ -13,7 +13,7 @@ Instrucciones:
 
 - Con Atom de nuevo en nuestra pantalla, abrirémos nuestro archivo 'cruel_laberinto.tidal' 
 
-- Ahora necesitamos instalar y abrir Processing; descomprimir el archivo 's2hs2tidalcycles08.zip' y dar doble click sobre el archvo 's2hs2tidalcycles08.pde', lo que desplegará un sketch con 3 pestañas 's2hs2tidalcycles08', 'Letters' y 'Thing', ahora debemos correr éste archivo, dando play o presionando 'ctrl o cmd + enter'.
+- Ahora necesitamos instalar y abrir Processing; descomprimir el archivo 's2hs2tidalcycles08.zip' y dar doble click sobre el archvo 's2hs2tidalcycles08.pde', lo que desplegará un sketch con 3 pestañas 's2hs2tidalcycles08', 'Letters' y 'Thing', ahora debemos correr éste archivo, dando play o presionando 'ctrl o cmd + R'.
 
 - Ahora volvemos a Atom y booteamos TidalCycles - 'Packages' - 'TidalCycles' - 'Boot TidalCycles'.
 
