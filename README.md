@@ -5,7 +5,7 @@ Instrucciones:
 
 - Para correr s2hs2 lo primero que necesitamos es instalar TidalCycles, aquí podemos seguir algunos sencillos pasos: http://tidalcycles.org/getting_started.html
 
-- Debemos estar seguros que hemos instalado Haskell, TidalCycles y el editor de texto de su elección (Atom, Emacs, etc).
+- Debemos estar seguros que hemos instalado Haskell, TidalCycles y el editor de texto de tu elección (Atom, Emacs, etc). Recomendamos Atom por su sencillez para ser instalado ( .
 
 - Ahora necesitamos instalar Processing, en el siguiente enlace es muy sencillo descargar la versión más adecuada para nuestro sistema operativo - https://processing.org/download/?processing
 
