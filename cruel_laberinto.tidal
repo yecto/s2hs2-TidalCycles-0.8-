@@ -1,0 +1,54 @@
+import Sound.Tidal.OscStream
+
+let poetry = Shape {
+      params = [ S "word" Nothing,
+                 F "r" (Just 0),
+                 F "g" (Just 1),
+                 F "b" (Just 0.5),
+                 F "rotation" (Just 0),
+                 F "distance" (Just 10),
+                 I "life" (Just 20),
+                 F "x" (Just 0.5),
+                 F "y" (Just 0.5),
+                 I "str" (Just 5)
+               ],
+      cpsStamp = False,
+      latency = 0
+      }
+    poetrySlang = OscSlang {path = "/note",
+                            timestamp = NoStamp,
+                            namedParams = False,
+                            preamble = []
+                           }
+    poetryStream = do
+    s <- makeConnection "127.0.0.1" 8010 poetrySlang
+    stream (Backend s $ (\_ _ _ -> return ())) poetry
+    word         = makeS poetry "word"
+    r            = makeF poetry "r"
+    g            = makeF poetry "g"
+    b            = makeF poetry "b"
+    rotation     = makeF poetry "rotation"
+    distance     = makeF poetry "distance"
+    life         = makeI poetry "life"
+    x            = makeF poetry "x"
+    y            = makeF poetry "y"
+    str          = makeI poetry "str"
+
+p1 <- poetryStream
+p2 <- poetryStream
+
+p1 silence
+p2 silence
+
+let hush = mapM_ ($ silence) [p1, p2]
+
+let solo = (>>) hush
+
+p1 $ word "h o l a m u n d o"
+   # x "0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9"
+   # life "12"
+   # r "0"
+   # g (slow 2 $ scale 0 255 sine)
+   # b "155"
+
+hush
