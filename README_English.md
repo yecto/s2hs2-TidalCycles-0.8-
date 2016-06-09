@@ -9,7 +9,7 @@ http://tidalcycles.org/getting_started.html
 
 - We must be sure we have installed Haskell, Tidal Cycles and the text editor of our choice (Atom, Emacs, etc). Atom recommended for its simplicity to be installed (.
 
-- Now we need to install Processing, the following link is very simple download the appropriate version for your operating system - https://processing.org/download/?processing
+- Now we need to install Processing, the following link is very simple download the proper version for your operating system - https://processing.org/download/?processing
 
 - Already installed the above, we will open Atom, first thing we need in case of not having done it before, is to install the "tidalcycles" which can search in Atom Preferences and then the tab "+ Install" when the package is installed, we need to restart Atom.
 
