@@ -13,10 +13,7 @@ Instrucciones:
 
 - Con Atom de nuevo en nuestra pantalla, abrirémos nuestro archivo cruel_laberinto.tidal 
 
-- Ahora necesitamos instalar y abrir Processing, así que necesitamos a abrir un archivo nuevo de Processing que llamaremos comotuquieras.pde - ahora le daremos guardar - y arrojaremos nuestra carpeta 'Data' dentro de la carpeta que 
-Processing ha generado para nuestro archivo, más tarde en nuestro sketch copiaremos y pegaremos lo que encontramos 
-aquí en el archivo 's2hs2tidalcycles08.pde', ahora necesitamos crear una nueva pestaña llamada 'Letters' en donde copiaremos y pegaremos lo que encontramos aquí en 'Letters.pde' y por último necesitamos crear una nueva pestaña llamada 'Thing',
-en donde de igual manera necesitamos copiar y pegar lo que aquí encontramos en 'Thing', corremos el sketch con 'ctrl o cmd + R' y ahora estamos listos para ir a TidalCycles.
+- Ahora necesitamos instalar y abrir Processing; descomprimir el archivo 's2hs2tidalcycles08.zip' y dar doble click sobre el archvo 's2hs2tidalcycles08.pde', lo que desplegará un sketch con 3 pestañas 's2hs2tidalcycles08', 'Letters' y 'Thing', ahora debemos correr éste archivo, dando play o presionando 'ctrl o cmd + enter'.
 
 - Ahora volvemos a Atom y booteamos TidalCycles - 'Packages' - 'TidalCycles' - 'Boot TidalCycles'
 
