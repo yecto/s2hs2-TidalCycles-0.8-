@@ -15,7 +15,7 @@ Instrucciones:
 
 - Ahora necesitamos instalar y abrir Processing, así que necesitamos a abrir un archivo nuevo de Processing que llamaremos comotuquieras.pde - ahora le daremos guardar - y arrojaremos nuestra carpeta 'Data' dentro de la carpeta que 
 Processing ha generado para nuestro archivo, más tarde en nuestro sketch copiaremos y pegaremos lo que encontramos 
-aquí en el archivo 'themucusoffmybrain.pde', ahora necesitamos crear una nueva pestaña llamada 'Letters' en donde copiaremos y pegaremos lo que encontramos aquí en 'Letters.pde' y por último necesitamos crear una nueva pestaña llamada 'Thing',
+aquí en el archivo 's2hs2tidalcycles08.pde', ahora necesitamos crear una nueva pestaña llamada 'Letters' en donde copiaremos y pegaremos lo que encontramos aquí en 'Letters.pde' y por último necesitamos crear una nueva pestaña llamada 'Thing',
 en donde de igual manera necesitamos copiar y pegar lo que aquí encontramos en 'Thing', corremos el sketch con 'ctrl o cmd + R' y ahora estamos listos para ir a TidalCycles.
 
 - Ahora volvemos a Atom y booteamos TidalCycles - 'Packages' - 'TidalCycles' - 'Boot TidalCycles'
