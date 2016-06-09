@@ -15,7 +15,7 @@ http://tidalcycles.org/getting_started.html
 
 - With Atom back on our screen, we will open our 'cruel_laberinto.tidal' file
 
-- Now we need to install and open Processing; uncompress the 's2hs2tidalcycles08.zip' file and double click on the file 's2hs2tidalcycles08.pde', which display a sketch with 3 tabs 's2hs2tidalcycles08', 'Letters' and 'Thing', now must run this file, giving play or pressing 'ctrl or cmd + enter'.
+- Now we need to install and open Processing; uncompress the 's2hs2tidalcycles08.zip' file and double click on the file 's2hs2tidalcycles08.pde', which display a sketch with 3 tabs 's2hs2tidalcycles08', 'Letters' and 'Thing', now must run this file, giving play or pressing 'ctrl or cmd + R'.
 
 - Now we turn back to Atom and boot TidalCycles - 'Packages' - 'Tidal Cycles' - 'Boot TidalCycles'.
 
