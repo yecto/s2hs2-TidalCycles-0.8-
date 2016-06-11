@@ -21,8 +21,8 @@ let poetry = Shape {
                             preamble = []
                            }
     poetryStream = do
-    s <- makeConnection "127.0.0.1" 8010 poetrySlang
-    stream (Backend s $ (\_ _ _ -> return ())) poetry
+      s <- makeConnection "127.0.0.1" 8010 poetrySlang
+      stream (Backend s $ (\_ _ _ -> return ())) poetry
     word         = makeS poetry "word"
     r            = makeF poetry "r"
     g            = makeF poetry "g"
